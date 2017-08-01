@@ -59,13 +59,11 @@ Visual
 
 ### Day 4:
 
-Functional
-- [ ] Image parsing
-
 Visual
-- [ ] Input box for user to upload image
+- [ ] Work on styling of image to make operations intuitive
 
 ## Bonus features
 
 - [ ] Add lossless compression methods
 - [ ] Allow users to download and safe compressed image
+- [ ] Allow users to upload custom images
