@@ -2,27 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Canvas Tutorial</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script id='shader-fs' type="x-shader/x-fragment">
-      void main(void){
-        gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
-      }
+    <title></title>
+    <script src="https://d3js.org/d3.v4.min.js">
+
     </script>
-    <script id="shader-vs" type="x-shader/x-vertex">
-      attribute vec3 aVertexPosition;
-      uniform mat4 uMVMatrix;
-      uniform mat4 uPMatrix;
-      void main(void) {
-        gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
-      }
-    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Open+Sans|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/index.css">
   </head>
   <body>
-    <!-- <input type="file" name="" value=""/> -->
-    <!-- <button type="button" name="button1"></button> -->
-    <canvas id="glCanvas" width="640" height="480"></canvas>
+    <div class="full-page">
+      <div class="SideBar">
+        <label class="Title">d3 Intro</label>
+        <button type="button" class="button" name="bar">
+          <i class="fa fa-bar-chart" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="main-body">
+        <svg class="chart">
 
-    <script type="application/javascript" src='./lib/bundle.js'></script>
+        </svg>
+      </div>
+    </div>
+
+    <script src="./lib/bundle.js">
+
+    </script>
   </body>
 </html>

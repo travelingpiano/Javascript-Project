@@ -1,0 +1,70 @@
+/*.chart div{
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}*/
+
+.full-page{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 180px;
+}
+
+.Title{
+  font-size: 30px;
+  font-family: 'Merriweather', sans-serif;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+.button{
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+
+.main-body{
+  display: flex;
+  height: 100vh;
+  width: calc(100vw - 200px);
+}
+
+.chart rect{
+  fill: steelblue;
+}
+
+.bar{
+  fill: steelblue;
+}
+
+.bar:hover{
+  fill: brown;
+}
+
+.x path{
+  display: none;
+}
+
+.chart text{
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.axis path
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
