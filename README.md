@@ -1,69 +1,50 @@
-# Image Sampling Visualization
+# D3 Introduction
 
 ## Background
 
-Images play a huge part in every website and application. The continuous nature of colors and the discrete nature of computers, however, make for an interesting conflict. The RGB color scheme, with 256 variations for each of the three colors, was designed to merge these two conflicts together. Still, images can take up a lot of space when the pixel count gets large. As such, lossless compression and lossy compression methods alike are used to keep image loading times at a manageable level. This application will look into a couple of the lossy compression methods.
-- random pixel sampling
-- Mitchell's best-candidate algorithm
-- stratified color sampling
-- chroma subsampling
+d3 is a well-known data visualization library that builds on svg and other html tags, providing a simpler way to plot out different charts. Many other charting libraries, such as Recharts.js and Victory.js are also built on top of the d3 foundation. Having used Recharts for my [full stack project](https://github.com/travelingpiano/Chartalize), I will be using d3 to reproduce similar chart effects as Recharts.
 
 ## Functionality & MVP
 
-Using the image sampling simulator, users will be able to:
+Using the chart simulator, users will be able to:
 
-- [ ] Witness effects of sampling methods on images
-- [ ] Select amount of compression for each sampling method
-- [ ] Upload images from local to test out the effects
-- [ ] Use existing test images to test out the effects
+- [ ] Plot different types of graphs
+- [ ] See value by hovering over the data point
+- [ ] Sort by x and y axes
+- [ ] Test out effects using existing data sets
 
-## Wireframes
+## Wireframe
 
-This app will have a single screen with an input box for users to upload images. There will be a list of selections for users to choose the image compression algorithm to be used, and scroll knob that can be used to select the extent of compression to be done. There will also be links to the github repository and my linkedin profile.
+This application will have a simple interface. There will be some buttons on the left representing the different chart types available. There will also be two dropdown menu, one that allows the user to select the type of sorting method to use and another that allows the user to select the data set to use.
 
-![wireframe](./wireframe/main_page.png)
+![wireframe](./wireframe/d3_intro.png)
 
 ## Architecture and Technologies
 
 This project will be implemented with the following technologies:
-
-- Vanilla `javascript` for overall structure and image compression logic
-- `HTML5 Canvas` for DOM manipulation and rendering
-- `Webpack` to bundle the scripts
+- Vanilla `javascript` for overall structure
+- `d3 4.0` for charting and HTML DOM manipulation
+- `CSS3` for styling of chart
 
 ## Implementation Timeline
 
-### Day 1:
+### Days 1 and 2:
 
 Functional
-- [ ] Get file structure out, including webpack, node modules and entry file
-
-Visual
-- [ ] Display test image
-
-### Day 2:
-
-Functional
-- [ ] Get different image compression algorithms out, use hard coded image compression amount
-
-Visual
-- [ ] Seeing changes in image through implementation of different compression algorithms
+- [ ] complete d3 tutorial, have general understanding of d3 procedure
 
 ### Day 3:
 
 Functional
-- [ ] Get knob for controlling image compression amount
-
-Visual
-- [ ] See live changes upon moving the knob
+- [ ] Be able to generate >= 2 types of charts (order: bar -> scatter -> line -> area)
 
 ### Day 4:
 
 Visual
-- [ ] Work on styling of image to make operations intuitive
+- [ ] Be able to display value in box on hover
 
 ## Bonus features
 
-- [ ] Add lossless compression methods
-- [ ] Allow users to download and safe compressed image
-- [ ] Allow users to upload custom images
+- [ ] Add pie chart
+- [ ] Allow for plotting of multiple y axes
+- [ ] Allow user to upload and visualize custom data set
