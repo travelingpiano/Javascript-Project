@@ -1,0 +1,77 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "variables";
+
+[data-reactroot]{
+  min-height: 100%;
+}
+
+#root {
+  min-height: 100%;
+}
+
+.col-1 {
+    width: 6.86666666667%;
+}
+
+.col-2 {
+    width: 15.3333333333%;
+}
+
+.col-3 {
+    width: 23.8%;
+}
+
+.col-4 {
+    width: 32.2666666667%;
+}
+
+.col-5 {
+    width: 40.7333333333%;
+}
+
+.col-6 {
+    width: 49.2%;
+}
+
+.col-7 {
+    width: 57.6666666667%;
+}
+
+.col-8 {
+    width: 66.1333333333%;
+}
+
+.col-9 {
+    width: 100%;
+}
+
+.col-10 {
+    width: 83.0666666667%;
+}
+
+.col-11 {
+    width: 91.5333333333%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+.logo{
+  font-family: 'Merriweather', sans-serif;
+  color: white;
+  padding-left: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo:hover{
+  color: grey;
+}

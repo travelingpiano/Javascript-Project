@@ -9,15 +9,27 @@
 
 .full-page{
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  width: 95vw;
+  height: 95vh;
 }
 
 .SideBar {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 180px;
+  height: calc(100vh - 20px);
+  width: 240px;
+  border: 1px solid black;
+}
+
+.tooltip{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  font: 12px sans-serif;
+  color: white;
+  background: black;
+  text-align: center;
+  pointer-events: none !important
 }
 
 .Title{
@@ -25,7 +37,7 @@
   font-family: 'Merriweather', sans-serif;
   width: 100%;
   text-align: center;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .button{
@@ -36,21 +48,28 @@
 
 .main-body{
   display: flex;
-  height: 100vh;
-  width: calc(100vw - 200px);
+  height: calc(100vh - 48px);
+  width: calc(100vw - 300px);
+  margin: 20px;
+}
+
+.chart{
+  width: inherit;
+  height: inherit;
 }
 
 .chart rect{
   fill: steelblue;
 }
 
-.bar{
+/*.bar{
   fill: steelblue;
-}
+}*/
 
-.bar:hover{
+/*.bar:hover{
   fill: brown;
-}
+  pointer-events: none !important
+}*/
 
 .x path{
   display: none;
