@@ -7,18 +7,21 @@
   color: white;
 }*/
 
-.full-page{
+body{
   display: flex;
-  width: 95vw;
-  height: 95vh;
+  margin: 0px;
 }
 
-.SideBar {
+.chart{
+  width: calc(100vw - 300px);
+  height: 99vh;
+}
+
+.SideBar{
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 20px);
-  width: 240px;
-  border: 1px solid black;
+  width: 300px;
+  height: 99vh;
 }
 
 .tooltip{
@@ -40,10 +43,8 @@
   margin-top: 10px;
 }
 
-.button{
+button{
   margin: auto;
-  width: 30px;
-  height: 30px;
 }
 
 .main-body{
@@ -51,15 +52,6 @@
   height: calc(100vh - 48px);
   width: calc(100vw - 300px);
   margin: 20px;
-}
-
-.chart{
-  width: inherit;
-  height: inherit;
-}
-
-.chart rect{
-  fill: steelblue;
 }
 
 /*.bar{
