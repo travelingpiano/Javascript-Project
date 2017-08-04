@@ -28,6 +28,11 @@ body{
   color: white;
 }
 
+text{
+  fill: rgb(143,17,42);
+  font-family: 'Merriweather', serif;
+}
+
 .Title{
   font-size: 30px;
   font-family: 'Merriweather', sans-serif;
@@ -37,7 +42,17 @@ body{
 }
 
 button{
-  margin: auto;
+  margin: 20px auto;
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 20px;
+  background-color: #253A5C;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.top-button{
+  margin-top: 100px;
 }
 
 .toolTip{
