@@ -1,0 +1,155 @@
+{
+  "name": "Top 100 Movies",
+  "children": [
+    {
+      "name": "Action",
+      "children": [
+        {"name": "Jurassic World", "Revenue": 1671},
+        {"name": "Marvel's The Avengers", "Revenue": 1519},
+        {"name": "Furious 7", "Revenue": 1516},
+        {"name": "Avengers: Age of Ultron", "Revenue": 1405},
+        {"name": "The Fate of the Furious", "Revenue": 1239},
+        {"name": "Iron Man 3", "Revenue": 1215},
+        {"name": "Captain America: Civil War", "Revenue": 1153},
+        {"name": "Skyfall", "Revenue": 1109},
+        {"name": "The Dark Knight", "Revenue": 1005},
+        {"name": "Spider-Man 3", "Revenue": 891},
+        {"name": "Spectre", "Revenue": 881},
+        {"name": "Batman v Superman: Dawn of Justice", "Revenue": 873},
+        {"name": "The Hunger Games: Catching Fire", "Revenue": 865},
+        {"name": "Guardians of the Galaxy: Vol. 2", "Revenue": 861},
+        {"name": "Spider-Man", "Revenue": 822},
+        {"name": "Wonder Woman", "Revenue": 790},
+        {"name": "Fast & Furious 6", "Revenue": 789},
+        {"name": "Spider-Man 2", "Revenue": 784},
+        {"name": "Deadpool", "Revenue": 783},
+        {"name": "Guardians of the Galaxy", "Revenue": 773},
+        {"name": "2012", "Revenue": 770},
+        {"name": "The Amazing Spider-Man", "Revenue": 758},
+        {"name": "The Hunger Games: Mockingjay - Part 1", "Revenue": 755},
+        {"name": "X-Men: Days of Future Past", "Revenue": 748},
+        {"name": "Captain America: The Winter Soldier", "Revenue": 714},
+        {"name": "The Amazing Spider-Man 2", "Revenue": 709},
+        {"name": "Mission Impossible - Ghost Protocol", "Revenue": 695},
+        {"name": "The Hunger Games", "Revenue": 694},
+        {"name": "Mission Impossible - Rogue Nation", "Revenue": 683},
+        {"name": "Doctor Strange", "Revenue": 678}
+      ]
+    },
+    {
+      "name": "Adventure",
+      "children": [
+        {"name": "The Jungle Book (2016)", "Revenue": 967}
+      ]
+    },
+    {
+      "name": "Animation",
+      "children": [
+        {"name": "Frozen", "Revenue": 1276},
+        {"name": "Minions", "Revenue": 1159},
+        {"name": "Toy Story 3", "Revenue": 1067},
+        {"name": "Finding Dory", "Revenue": 1029},
+        {"name": "Zootopia", "Revenue": 1024},
+        {"name": "Despicable Me 2", "Revenue": 971},
+        {"name": "The Lion King", "Revenue": 968},
+        {"name": "Finding Nemo", "Revenue": 940},
+        {"name": "Shrek", "Revenue": 920},
+        {"name": "Ice Age: Dawn of the Dinosaurs", "Revenue": 887},
+        {"name": "Ice Age: Continental Drift", "Revenue": 877},
+        {"name": "The Secret Life of Pets", "Revenue": 876},
+        {"name": "Inside Out", "Revenue": 858},
+        {"name": "Despicable Me 3", "Revenue": 827},
+        {"name": "Shrek the Third", "Revenue": 799},
+        {"name": "Maleficent", "Revenue": 759},
+        {"name": "Shrek Forever After", "Revenue": 753},
+        {"name": "Madagascar 3: Europe's Most Wanted", "Revenue": 747},
+        {"name": "Suicide Squad", "Revenue": 746},
+        {"name": "Monsters University", "Revenue": 744},
+        {"name": "Up", "Revenue": 735}
+      ]
+    },
+    {
+      "name": "Comedy",
+      "children": [
+        {"name": "Forrest Gump", "Revenue": 678}
+      ]
+    },
+    {
+      "name": "Family",
+      "children": [
+        {"name": "Alice in Wonderland (2010)", "Revenue": 1025},
+        {"name": "E.T.: The Extra-Terrestrial", "Revenue": 793}
+      ]
+    },
+    {
+      "name": "Fantasy",
+      "children": [
+        {"name": "Harry Potter and the Deathly Hallows Part 2", "Revenue": 1342},
+        {"name": "Beauty and the Beast (2017)", "Revenue": 1262},
+        {"name": "The Lord of the Rings: The Return of the King", "Revenue": 1120},
+        {"name": "Harry Potter and the Sorcerer's Stone", "Revenue": 975},
+        {"name": "Harry Potter and the Deathly Hallows Part 1", "Revenue": 963},
+        {"name": "The Hobbit: The Desolation of Smaug", "Revenue": 958},
+        {"name": "The Hobbit: The Battle of the Five Armies", "Revenue": 956},
+        {"name": "Harry Potter and the Order of the Phoenix", "Revenue": 940},
+        {"name": "Harry Potter and the Half-Blood Prince", "Revenue": 934},
+        {"name": "The Lord of the Rings: The Two Towers", "Revenue": 926},
+        {"name": "Harry Potter and the Goblet of Fire", "Revenue": 897},
+        {"name": "Harry Potter and the Chamber of Secrets", "Revenue": 879},
+        {"name": "The Lord of the Rings: The Fellowship of the Ring", "Revenue": 872},
+        {"name": "Fantastic Beasts and Where To Find Them", "Revenue": 814},
+        {"name": "Harry Potter and the Prisoner of Azkaban", "Revenue": 797},
+        {"name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe", "Revenue": 745}
+      ]
+    },
+    {
+      "name": "Period",
+      "children": [
+        {"name": "Pirates of the Carribean: Dead Man's Chest", "Revenue": 1066},
+        {"name": "Pirates of the Carribean: On Stranger Tides", "Revenue": 1046},
+        {"name": "The Hobbit: An Unexpected Journey", "Revenue": 1021},
+        {"name": "Pirates of the Carribean: At World's End", "Revenue": 963},
+        {"name": "Pirates of the Carribean: Dead Men Tell No Tales", "Revenue": 776}
+      ]
+    },
+    {
+      "name": "Romance",
+      "children": [
+        {"name": "Titanic", "Revenue": 2186},
+        {"name": "The Twilight Saga: Breaking Dawn Part 2", "Revenue": 830},
+        {"name": "Indiana Jones and the Kingdom of the Crystal Skull", "Revenue": 787},
+        {"name": "The Twilight Saga: Breaking Dawn Part 1", "Revenue": 712},
+        {"name": "The Twilight Saga: New Moon", "Revenue": 710},
+        {"name": "The Twilight Saga: Eclipse", "Revenue": 699}
+      ]
+    },
+    {
+      "name": "Sci-Fi",
+      "children": [
+        {"name": "Avatar", "Revenue": 2788},
+        {"name": "Star Wars: The Force Awakens", "Revenue": 2068},
+        {"name": "Transformers: Dark of the Moon", "Revenue": 1124},
+        {"name": "Transformers: Age of Extinction", "Revenue": 1104},
+        {"name": "Rogue One: A Star Wars Story", "Revenue": 1056},
+        {"name": "Jurassic Park", "Revenue": 1029},
+        {"name": "Star Wars: Episode I - The Phantom Menance", "Revenue": 1027},
+        {"name": "Star Wars: Episode III - Revenge of the Sith", "Revenue": 849},
+        {"name": "Transformers: Revenge of the Fallen", "Revenue": 836},
+        {"name": "Inception", "Revenue": 826},
+        {"name": "Independence Day", "Revenue": 817},
+        {"name": "Star Wars", "Revenue": 775},
+        {"name": "The Matrix Reloaded", "Revenue": 742},
+        {"name": "Gravity", "Revenue": 723},
+        {"name": "Dawn of the Planet of the Apes", "Revenue": 711},
+        {"name": "Transformers", "Revenue": 710}
+      ]
+    },
+    {
+      "name": "Thriller",
+      "children": [
+        {"name": "The Dark Knight Rises", "Revenue": 1085},
+        {"name": "The Da Vinci Code", "Revenue": 758}
+      ]
+    }
+  ]
+}
