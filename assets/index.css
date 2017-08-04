@@ -41,9 +41,11 @@ button{
 }
 
 .toolTip{
+  position: absolute;
   text-align: center;
   padding: 5px;
   border: 1px solid black;
+  background: white;
 }
 
 circle{
