@@ -1,4 +1,4 @@
-# D3 Introduction
+# d3 Intro
 
 ## Background
 
