@@ -24,15 +24,8 @@ body{
   height: 99vh;
 }
 
-.tooltip{
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  font: 12px sans-serif;
+.chart{
   color: white;
-  background: black;
-  text-align: center;
-  pointer-events: none !important
 }
 
 .Title{
@@ -47,6 +40,10 @@ button{
   margin: auto;
 }
 
+circle{
+  /*fill: white;*/
+}
+
 .main-body{
   display: flex;
   height: calc(100vh - 48px);
@@ -54,28 +51,6 @@ button{
   margin: 20px;
 }
 
-/*.bar{
-  fill: steelblue;
-}*/
-
-/*.bar:hover{
-  fill: brown;
-  pointer-events: none !important
-}*/
-
 .x path{
   display: none;
-}
-
-.chart text{
-  fill: black;
-  font: 10px sans-serif;
-  text-anchor: middle;
-}
-
-.axis path
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
 }

@@ -1,0 +1,190 @@
+{
+  "name": "Fortune 100",
+  "children": [
+    {
+      "name": "Defense",
+      "children": [
+        {"name": "Boeing", "Revenue": 94571},
+        {"name": "United Technologies", "Revenue": 57244},
+        {"name": "Lockheed Martin", "Revenue": 50658},
+        {"name": "General Dynamics", "Revenue": 31353}
+      ]
+    },
+    {
+      "name": "Apparel",
+      "children": [
+        {"name": "Nike", "Revenue": 32376}
+      ]
+    },
+    {
+      "name": "Chemical",
+      "children": [
+        {"name": "Dow Chemical", "Revenue": 48158}
+      ]
+    },
+    {
+      "name": "Energy",
+      "children": [
+        {"name": "Exxon Mobil", "Revenue": 205004},
+        {"name": "Chevron", "Revenue": 107567},
+        {"name": "Philips 66", "Revenue": 72396},
+        {"name": "Valero Energy", "Revenue": 70166},
+        {"name": "Marathon Petroleum", "Revenue": 55858},
+        {"name": "Energy Transfer Equity", "Revenue": 37504},
+        {"name": "Exelon", "Revenue": 31360}
+      ]
+    },
+    {
+      "name": "Financials",
+      "children": [
+        {"name": "Berkshire Hathaway", "Revenue": 223604},
+        {"name": "Fannie Mae", "Revenue": 107162},
+        {"name": "JP Morgan Chase", "Revenue": 105486},
+        {"name": "Wells Fargo", "Revenue": 94176},
+        {"name": "Bank of America Corp", "Revenue": 93662},
+        {"name": "Citigroup", "Revenue": 82386},
+        {"name": "State Farm Insurance", "Revenue": 76132},
+        {"name": "Freddie Mac", "Revenue": 65665},
+        {"name": "MetLife", "Revenue": 63476},
+        {"name": "Prudential Financial", "Revenue": 58779},
+        {"name": "AIG", "Revenue": 52367},
+        {"name": "New York Life Insurance", "Revenue": 40787},
+        {"name": "Nationwide", "Revenue": 40074},
+        {"name": "Libery Mutual Insurance Group", "Revenue": 38308},
+        {"name": "Morgan Stanley", "Revenue": 37949},
+        {"name": "Massachusetts Mutual Life Insurance", "Revenue": 37788},
+        {"name": "Goldman Sachs Group", "Revenue": 37712},
+        {"name": "TIAA", "Revenue": 37105},
+        {"name": "Allstate", "Revenue": 36534},
+        {"name": "American Express", "Revenue": 33823},
+        {"name": "Northwestern Mutual", "Revenue": 28799},
+        {"name": "Travelers Cos", "Revenue": 27625},
+        {"name": "Capital One Financial", "Revenue": 27519}
+      ]
+    },
+    {
+      "name": "Food & Drug Stores",
+      "children": [
+        {"name": "Walgreens Boots Alliance", "Revenue": 117351},
+        {"name": "Kroger", "Revenue": 115337},
+        {"name": "Albertsons Cos", "Revenue": 58734},
+        {"name": "Publix Super Markets", "Revenue": 34274},
+        {"name": "Rite Aid", "Revenue": 30737}
+      ]
+    },
+    {
+      "name": "Food, Beverage and Tobacco",
+      "children": [
+        {"name": "PepsiCo", "Revenue": 62799},
+        {"name": "Archer Daniels Midland", "Revenue": 62346},
+        {"name": "Coco-Cola", "Revenue": 41863},
+        {"name": "Tyson Foods", "Revenue": 36881},
+        {"name": "CHS", "Revenue": 30347}
+      ]
+    },
+    {
+      "name": "Health",
+      "children": [
+        {"name": "UnitedHealth Group","Revenue": 184840},
+        {"name": "CVS Health", "Revenue": 177526},
+        {"name": "Express Scripts Holding", "Revenue": 100288},
+        {"name": "Anthem", "Revenue": 84863},
+        {"name": "Johnson & Johnson", "Revenue": 71890},
+        {"name": "Aetna", "Revenue": 63155},
+        {"name": "Humana", "Revenue": 54379},
+        {"name": "Pfizer", "Revenue": 52824},
+        {"name": "HCA Holdings", "Revenue": 44747},
+        {"name": "Centene", "Revenue": 40721},
+        {"name": "Merck", "Revenue": 39807},
+        {"name": "Cigna", "Revenue": 39668},
+        {"name": "Gilead Sciences", "Revenue": 30390}
+      ]
+    },
+    {
+      "name": "Household Products",
+      "children": [
+        {"name": "Procter & Gamble", "Revenue": 71726}
+      ]
+    },
+    {
+      "name": "Industrials",
+      "children": [
+        {"name": "General Electric", "Revenue": 126661},
+        {"name": "Honeywell International", "Revenue": 39302},
+        {"name": "Caterpillar", "Revenue": 38537},
+        {"name": "3M", "Revenue": 30109}
+      ]
+    },
+    {
+      "name": "Media",
+      "children": [
+        {"name": "Disney", "Revenue": 55632},
+        {"name": "Time Warner", "Revenue": 29318}
+      ]
+    },
+    {
+      "name": "General Motors",
+      "children": [
+        {"name": "General Motors", "Revenue": 166380},
+        {"name": "Ford Motor", "Revenue": 151800}
+      ]
+    },
+    {
+      "name": "Retailers",
+      "children": [
+        {"name": "Walmart", "Revenue": 485873},
+        {"name": "Costco", "Revenue": 188719},
+        {"name": "Home Depot", "Revenue": 118719},
+        {"name": "Target", "Revenue": 69495},
+        {"name": "Lowe's", "Revenue": 65017},
+        {"name": "Best Buy", "Revenue": 39403},
+        {"name": "TJX", "Revenue": 33184}
+      ]
+    },
+    {
+      "name": "Technology",
+      "children": [
+        {"name": "Apple", "Revenue": 215639},
+        {"name": "Amazon.com", "Revenue": 135987},
+        {"name": "Alphabet", "Revenue": 90272},
+        {"name": "Microsoft", "Revenue": 85320},
+        {"name": "IBM", "Revenue": 79919},
+        {"name": "Dell Technologies", "Revenue": 64806},
+        {"name": "Intel", "Revenue": 59387},
+        {"name": "Hewlett Packard Enterprise", "Revenue": 50123},
+        {"name": "CISCO", "Revenue": 49247},
+        {"name": "HP", "Revenue": 48238},
+        {"name": "Oracle", "Revenue": 37047},
+        {"name": "Facebook", "Revenue": 27638}
+      ]
+    },
+    {
+      "name": "Telecommuncations",
+      "children": [
+        {"name": "AT&T", "Revenue": 163786},
+        {"name": "Verizon", "Revenue": 125980},
+        {"name": "Comcast", "Revenue": 80403},
+        {"name": "Charter Communications", "Revenue": 29003}
+      ]
+    },
+    {
+      "name": "Transportation",
+      "children": [
+        {"name": "UPS", "Revenue": 60906},
+        {"name": "FedEx", "Revenue": 50365},
+        {"name": "American Airlines Group", "Revenue": 40180},
+        {"name": "Delta Air Lines", "Revenue": 39639},
+        {"name": "United Continental Holdings", "Revenue": 36556}
+      ]
+    },
+    {
+      "name": "Wholesalers",
+      "children": [
+        {"name": "McKesson", "Revenue": 192487},
+        {"name": "AmerisourceBergen", "Revenue": 146850},
+        {"name": "Cardinal Health", "Revenue": 121546},
+        {"name": "Sysco", "Revenue": 50367}
+      ]
+    }
+  ]
+}
