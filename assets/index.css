@@ -49,6 +49,11 @@ button{
   background-color: #253A5C;
   border-radius: 5px;
   padding: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: #D4D4D4;
 }
 
 .top-button{
