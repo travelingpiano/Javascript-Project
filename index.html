@@ -110,11 +110,7 @@
                     .attr('pointer-events','none')
                     .attr('color','blue')
                     .text(d=> {
-                      if(d.children){
                         return d.data.name.substring(0,d.r/3);
-                      }else{
-                        return d.data.name.substring(0,d.r/3*2);
-                      }
                       });
         let node = g.selectAll('circle,text');
         svg.style('background',color(-1))
